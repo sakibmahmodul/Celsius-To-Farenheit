@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Celsius to Farenhite</title>
+	</head>
+	<body>
+        <h2 id="celsius"></h2>
+        <h2 id="farenheit"></h2>
+	    <script>
+            var Celsius;
+            Celsius = prompt("Put the temperature in \xB0Celsius:");
+            document.getElementById("celsius").innerHTML = "Your Typed Temperature is " + Celsius + "\xB0C";
+            var Farenheit;
+            Farenheit = 9/5 * Celsius + 32;
+            document.getElementById("farenheit").innerHTML = "In Farenheit Scale : " + Farenheit + "\xB0F";
+            alert("The Value of " + Celsius + "\xB0C is " + Farenheit + "\xB0F");
+            console.log("Task Complete!")
+	    </script>
+	</body>
+</html>
